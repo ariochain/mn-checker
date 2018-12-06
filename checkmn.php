@@ -1,8 +1,6 @@
 <?php
 
 require_once("include/init.inc.php");
-$block=new Block;
-$current=$block->current();
 
 $hostname = 'https://www.ariochain.info';   // report hostname
 $reportUri = '/api/v1/public/peers.json';   // report uri
